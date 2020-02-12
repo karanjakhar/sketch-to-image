@@ -28,7 +28,7 @@ We used U-net with ResNet as backbone. U-net work on the concept of encoder and 
 
 
 
-![image-20200212234340955](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/image-20200212234340955.png)
+![image-20200212234340955](images/image-20200212234340955.png)
 
 
 
@@ -40,11 +40,11 @@ We have the Celeb dataset download from kaggle : https://www.kaggle.com/jessical
 
 Then using image processing techniques we converted those images into sketch. The code related to this is in image2sketch.ipynb file.
 
-![image-20200212234511070](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/image-20200212234511070.png)
+![image-20200212234511070](images/image-20200212234511070.png)
 
 
 
-![image-20200212234612646](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/image-20200212234612646.png)
+![image-20200212234612646](images/image-20200212234612646.png)
 
 
 
@@ -54,7 +54,7 @@ Then using image processing techniques we converted those images into sketch. Th
 
 This is the rough working steps of our architecture. First we perform image preprocessing like removing the noise on the input image. Then we pass that image to our model. Our model will output a photo graphic image. After that we can present that image in any required format.
 
-![img](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/lu23715jmr4pi_tmp_ab6ed7f19159d01e.png) 
+![img](images/lu23715jmr4pi_tmp_ab6ed7f19159d01e.png) 
 
 **Results**
 
@@ -64,7 +64,7 @@ Our model was trained on a Nvidia GTX 1050 Ti for the whole night which is aroun
 
 
 
-![img](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/lu23715jmr4pk_tmp_29589976591f8a66.png) ![img](file:///tmp/lu23715jmr4oz.tmp/lu23715jmr4pk_tmp_6a70c1016a5c8de6.png) ![img](/home/karan/kj_workspace/kj_git_projects/Chandigarh_Police_Hackathon/lu23715jmr4pk_tmp_9c743d37d1f40660.png) ![img](file:///tmp/lu23715jmr4oz.tmp/lu23715jmr4pk_tmp_f6907d3e314de0e2.png) 
+![img](images/lu23715jmr4pk_tmp_29589976591f8a66.png) ![img](images/lu23715jmr4pk_tmp_6a70c1016a5c8de6.png) ![img](images/lu23715jmr4pk_tmp_9c743d37d1f40660.png) ![img](images/lu23715jmr4pk_tmp_f6907d3e314de0e2.png) 
 
 
 
